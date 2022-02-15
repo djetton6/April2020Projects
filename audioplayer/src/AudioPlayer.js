@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/graphics/Header'
 import Graphics from './components/graphics/Graphics'
 import Playlist from './components/playlist/Playlist'
-import Actions from './components/playlist/Actions'
+// import Actions from './components/playlist/Actions'
 import Controls from './components/Controls'
 
 import PlayerState from './context/PlayerState'
@@ -22,7 +22,7 @@ function AudioPlayer() {
             <Graphics />
           </div>
           <div className="right">
-            <Actions />
+            {/* <Actions /> */}
             <Playlist />
           </div>
         </div>

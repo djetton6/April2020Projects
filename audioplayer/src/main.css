@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: #FF6F77;
   font-family: montserrat;
   display: flex;
   justify-content: center;
@@ -28,18 +29,33 @@ body {
 
 .graphics img {
   border-radius: 8px;
-  box-shadow: 0 0 3px 0px #777777b8;
-  height: 300px;
+  box-shadow: 0 0 50px 20px #777777b8;
+  height: 80vh;
+  width: 80vw;
 }
 
 .graphics {
-  padding: 15px 0px;
+  padding: 30px 40px;
 }
 
 header h3 {
   font-weight: normal;
   margin: 0;
   padding: 10px;
+}
+
+.highlight h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 5vh;
+  margin-top: 6vh;
+  margin-left: 6vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  border-bottom: 12px solid#FFDEE3;
+  padding-bottom: 12px;
+  padding-bottom: 10vh;
+  
 }
 
 .actions {
@@ -62,10 +78,11 @@ header h3 {
 
 .playlist {
   background: #e3e3e3;
-  margin-top: 15px;
+  margin-top: 20vh;
+  margin-right: 3vw;
   border-radius: 5px;
-  height: 300px;
-  width: 220px;
+  height: 50vh;
+  width: 15vw;
 }
 
 .selected {
@@ -73,7 +90,7 @@ header h3 {
 }
 
 .playlist .header {
-  padding: 5px;
+  padding: 20px;
 }
 
 .songContainer {
@@ -108,8 +125,11 @@ header h3 {
 .controls {
   display: flex;
   flex-direction: row;
-  height: 60px;
-  background: #3a3a3a;
+  margin-top: 60px;
+  margin-bottom: 85px;
+  height: 80px;
+  width: 100%;
+  background: #FF6F77;
   color: white;
   align-items: center;
   position: relative;
